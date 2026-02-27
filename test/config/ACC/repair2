@@ -1,0 +1,99 @@
+model_bef 1
+ACC_FFNN_trainbfg_30_30_30_Nor_Sat_Jan_24
+model_rep 1
+ACC_FFNN_trainbfg_30_30_30_Nor_Sat_Jan_24_Rep
+addpath 2
+/home/deyun/git/OPERA
+/home/deyun/git/breach
+bench 1
+ACC
+dataset 1
+ACC_vl_28_ve_22_spec_1_FFNN_trainbfg_30_30_30_Nor_Sat_Tr.mat
+dataset_tbr 1
+ACC_vl_28_ve_22_spec_1_FFNN_trainbfg_30_30_30_Nor_Sat_Tr.mat
+chro_prefix 1
+ACC_vl_28_ve_22_spec_1_FFNN_trainbfg_30_30_30_Nor_Sat_Jan_24_chromosome
+D_size 1
+10000
+is_nor 1
+1
+in_name 1
+in_lead
+in_range 1
+-1 1
+in_span 1
+5
+icc_name 2
+v_set
+t_gap
+ic_const 2
+30
+1.4
+ics_name 3
+v_ego
+d_rel
+v_rel
+ocb_name 1
+a_ego_b
+ocm_name 1
+a_ego_m
+ocf_name 1
+a_ego_f
+oc_range 1
+-3 2
+oc_span 1
+0.1
+phi_str 1
+ACC1 alw_[0,50](d_rel[t] - 1.4 * v_ego[t] >= 10 and v_ego[t] <= 30.1)
+phic_str 1
+ACC1 alw_[T_begin,T_end](d_rel[t] - 1.4 * v_ego[t] >= 10 and v_ego[t] <= 30.1)
+interval_LR 1
+0 50
+parameters 13
+T=50;
+Ts=0.1;
+v_set=30;
+t_gap=1.4;
+D_default=10;
+x0_lead=70;
+v0_lead=28;
+x0_ego=10;
+v0_ego=22;
+amin_lead=-1;
+amax_lead=1;
+amin_ego=-3;
+amax_ego=2;
+pop_size 1
+40
+max_gen 1
+10
+M 1
+3
+V 1
+6
+N 1
+4
+use_custom_patch_points 1
+0
+amp 1
+0.1
+rep_budget 1
+10
+st_id 1
+1
+chroflag 1
+0
+opt_pos 1
+0
+use_custom_search_range 1
+0
+t_l_ratio 1
+0
+t_r_ratio 1
+0
+start_idx 1
+1
+end_idx 1
+10000
+batch 1
+1

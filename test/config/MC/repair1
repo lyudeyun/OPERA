@@ -1,0 +1,74 @@
+nn_bef 1
+mc_sig_2x16_broken.yml
+nn_rep 1
+mc_sig_2x16_broken_cp.yml
+addpath 1
+/home/deyun/git/OPERA
+bench 1
+mc
+dataset_tbr 1
+MC_Phi_1_FFNN_16_16_XV_100_100_Feb_11_2026.mat
+chro_prefix 1
+MC_Phi_1_FFNN_16_16_XV_100_100_Feb_11_2026_chromosome
+D_size 1
+10000
+in_name 2
+initPos
+initVel
+in_range 2
+-0.505 0.395
+-0.055 0.045
+in_span 1
+110
+ics_name 2
+trajPos
+trajVel
+ocb_name 1
+nn_out_b
+ocm_name 1
+nn_out_m
+ocf_name 1
+nn_out_f
+oc_range 1
+-1 1
+oc_span 1
+1
+phi_str 1
+MC1 ev_[0,110](trajPos[t] >= 0.45)
+parameters 2
+T=110;
+Ts=1;
+pop_size 1
+40
+max_gen 1
+10
+M 1
+3
+V 1
+6
+N 1
+4
+use_custom_patch_points 1
+0
+amp 1
+0.1
+rep_budget 1
+10
+st_id 1
+1
+chroflag 1
+1
+opt_pos 1
+0
+use_custom_search_range 1
+0
+t_l_ratio 1
+0
+t_r_ratio 1
+0
+start_idx 1
+1
+end_idx 1
+10000
+batch 1
+1

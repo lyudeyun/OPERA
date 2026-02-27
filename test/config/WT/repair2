@@ -1,0 +1,82 @@
+model_bef 1
+WT_FFNN_trainbfg_15_15_15_Dec_22
+model_rep 1
+WT_FFNN_trainbfg_15_15_15_Dec_22_Rep
+addpath 2
+/home/deyun/git/OPERA
+/home/deyun/git/breach
+bench 1
+WT
+dataset_tbr 1
+WT_error_086_spec_1_FFNN_trainbfg_15_15_15_Dec_22_Tr.mat
+chro_prefix 1
+WT_error_086_spec_1_FFNN_trainbfg_15_15_15_Dec_22_chromosome
+D_size 1
+10000
+is_nor 1
+0
+in_name 1
+h_ref
+in_range 1
+10 20
+in_span 1
+5
+ics_name 1
+h_error
+ocb_name 1
+action_b
+ocm_name 1
+action_m
+ocf_name 1
+action_f
+oc_range 1
+-36 72
+oc_span 1
+0.1
+phi_str 1
+WT1 alw_[4,4.9](abs(h_error[t]) < 0.86) and alw_[9,9.9](abs(h_error[t]) < 0.86) and alw_[14,14.9](abs(h_error[t]) < 0.86)
+phic_str 1
+WT1 alw_[T_begin,T_end](abs(h_error[t]) < 0.86)||alw_[T_begin,T_end](abs(h_error[t]) < 0.86)||alw_[T_begin,T_end](abs(h_error[t]) < 0.86)
+interval_LR 3
+4 4.9
+9 9.9
+14 14.9
+parameters 4
+T=15;
+Ts=0.1;
+h_ref_min=10;
+h_ref_max=20;
+pop_size 1
+40
+max_gen 1
+10
+M 1
+3
+V 1
+6
+N 1
+4
+use_custom_patch_points 1
+0
+amp 1
+0.1
+rep_budget 1
+10
+st_id 1
+1
+chroflag 1
+0
+opt_pos 1
+0
+use_custom_search_range 1
+0
+t_l_ratio 1
+0
+t_r_ratio 1
+0
+start_idx 1
+1
+end_idx 1
+10000
+batch 1
+1
