@@ -75,19 +75,5 @@ thereby improving system reliability.
   - Now the executable scripts have been generated under the directory `test/scripts/`.
   - Navigate to the root directory `OPERA/` and run the command `make`. The automatically generated evaluation results will be stored under the root directory.
 
- ### RQ1
-
- ### RQ2
-
- ### RQ3
-
- ### RQ4
- 
- ### RQ5
-
- ### RQ6
-
- ### RQ7
- 
 
  
