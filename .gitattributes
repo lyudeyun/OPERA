@@ -1,0 +1,15 @@
+benchmark/ACC/ACC_Trad/ACC_vl_28_ve_22_ddefault_105_spec_1_Orig_Feb_7_Tr.mat filter=lfs diff=lfs merge=lfs -text
+benchmark/ACC/ACC_Trad/Nor_ACC_vl_28_ve_22_ddefault_105_spec_1_Orig_Feb_7_Tr.mat filter=lfs diff=lfs merge=lfs -text
+benchmark/ACC/ACC_vl_28_ve_22_spec_1_FFNN_trainbfg_30_30_30_Nor_Sat_Jan_24/dataset/ACC_vl_28_ve_22_spec_1_FFNN_trainbfg_30_30_30_Nor_Sat_Te.mat filter=lfs diff=lfs merge=lfs -text
+benchmark/ACC/ACC_vl_28_ve_22_spec_1_FFNN_trainbfg_30_30_30_Nor_Sat_Jan_24/dataset/ACC_vl_28_ve_22_spec_1_FFNN_trainbfg_30_30_30_Nor_Sat_Tr.mat filter=lfs diff=lfs merge=lfs -text
+benchmark/ACC/ACC_vl_28_ve_22_spec_1_FFNN_trainbfg_30_30_30_Nor_Sat_Jan_24/repaired/dataset/*.mat filter=lfs diff=lfs merge=lfs -text
+benchmark/ACC/ACC_vl_28_ve_22_spec_1_FFNN_trainlm_10_10_10_Nor_Sat_Feb_15/dataset/ACC_vl_28_ve_22_spec_1_FFNN_trainlm_10_10_10_Nor_Sat_Feb_15_Te.mat filter=lfs diff=lfs merge=lfs -text
+benchmark/ACC/ACC_vl_28_ve_22_spec_1_FFNN_trainlm_10_10_10_Nor_Sat_Feb_15/dataset/ACC_vl_28_ve_22_spec_1_FFNN_trainlm_10_10_10_Nor_Sat_Feb_15_Tr.mat filter=lfs diff=lfs merge=lfs -text
+benchmark/ACC/ACC_vl_28_ve_22_spec_1_FFNN_trainlm_10_10_10_Nor_Sat_Feb_15/repaired/dataset/*.mat filter=lfs diff=lfs merge=lfs -text
+benchmark/AFC/AFC_Trad/AFC_mu_020_spec_1_Orig_Jan_6_Tr.mat filter=lfs diff=lfs merge=lfs -text
+benchmark/AFC/AFC_Trad/AFC_mu_020_spec_1_Orig_Jan_6_Tr_Nor.mat filter=lfs diff=lfs merge=lfs -text
+benchmark/AFC/AFC_mu_015_spec_1_FFNN_trainlm_15_15_15_NoSat_Jan_23/repaired/dataset/*.mat filter=lfs diff=lfs merge=lfs -text
+benchmark/AFC/AFC_mu_015_spec_1_FFNN_trainlm_30_30_30_Nor_Jan_6/dataset/AFC_FFNN_trainlm_30_30_30_Nor_Jan_6_Te.mat filter=lfs diff=lfs merge=lfs -text
+benchmark/AFC/AFC_mu_015_spec_1_FFNN_trainlm_30_30_30_Nor_Jan_6/dataset/AFC_FFNN_trainlm_30_30_30_Nor_Jan_6_Tr.mat filter=lfs diff=lfs merge=lfs -text
+benchmark/AFC/AFC_mu_015_spec_1_FFNN_trainlm_30_30_30_Nor_Jan_6/repaired/dataset/*.mat filter=lfs diff=lfs merge=lfs -text
+benchmark/AFC/dataset/AFC_mu_015_spec_1_FFNN_trainlm_15_15_15_NoSat_Tr.mat filter=lfs diff=lfs merge=lfs -text
