@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Runs one job script and logs its output to output/<job>.log; called by the Makefile.
+#   ./run <job> <script>
+
+set -o pipefail
+
+mkdir -p output
+"$2" 2>&1 | tee "output/$1.log"

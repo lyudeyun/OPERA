@@ -1,0 +1,60 @@
+model 5
+AFC_FFNN_trainlm_15_15_15_St_1_Repeat_1
+AFC_FFNN_trainlm_15_15_15_St_2_Repeat_1
+AFC_FFNN_trainlm_15_15_15_St_3_Repeat_1
+AFC_FFNN_trainlm_15_15_15_St_4_Repeat_1
+AFC_FFNN_trainlm_15_15_15_St_5_Repeat_1
+addpath 1
+/home/deyun/git/OPERA_dev
+bench 1
+AFC
+D_run 5
+Null.mat
+Null.mat
+Null.mat
+Null.mat
+Null.mat
+D_train 1
+AFC_mu_015_spec_1_FFNN_trainlm_15_15_15_NoSat_May_11_Tr.mat
+D_test 1
+AFC_mu_015_spec_1_FFNN_trainlm_15_15_15_NoSat_May_11_Te.mat
+D_repaired 5
+AFC_mu_015_spec_1_FFNN_trainlm_15_15_15_NoSat_May_11_Tr_St_1_Re.mat
+AFC_mu_015_spec_1_FFNN_trainlm_15_15_15_NoSat_May_11_Tr_St_2_Re.mat
+AFC_mu_015_spec_1_FFNN_trainlm_15_15_15_NoSat_May_11_Tr_St_3_Re.mat
+AFC_mu_015_spec_1_FFNN_trainlm_15_15_15_NoSat_May_11_Tr_St_4_Re.mat
+AFC_mu_015_spec_1_FFNN_trainlm_15_15_15_NoSat_May_11_Tr_St_5_Re.mat
+is_nor 1
+0
+in_name 2
+Engine_Speed
+Pedal_Angle
+in_range 2
+900 1100
+8.8 61.1
+in_span 1
+6 6
+con_type 1
+UniStep
+phi_str 1
+AFC1 alw_[0,30](AF[t] < 1.15*14.7 and AF[t] > 0.85*14.7)
+parameters 17
+T=30;
+Ts=0.1;
+fuel_inj_tol=1.0;
+MAF_sensor_tol=1.0;
+AF_sensor_tol=1.0;
+pump_tol=1;
+kappa_tol=1;
+tau_ww_tol=1;
+fault_time=50;
+kp=0.04;
+ki=0.14;
+min_Engine_Speed=900;
+max_Engine_Speed=1100;
+min_Pedal_Angle=8.8;
+max_Pedal_Angle=61.1;
+max_cf_gps=1.66;
+min_cf_gps=0.13;
+core_num 1
+20

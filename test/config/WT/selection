@@ -1,0 +1,37 @@
+model 11
+WT_FFNN_5_5_5_trainlm_Dec_22
+WT_FFNN_5_5_trainbfg_Dec_22
+WT_FFNN_5_5_trainlm_Dec_22
+WT_FFNN_10_10_10_trainbfg_Dec_22
+WT_FFNN_10_10_10_trainlm_Dec_22
+WT_FFNN_10_10_trainbfg_Dec_22
+WT_FFNN_10_10_trainlm_Dec_22
+WT_FFNN_15_15_15_trainbfg_Dec_22
+WT_FFNN_15_15_15_trainlm_Dec_22
+WT_FFNN_15_15_trainbfg_Dec_22
+WT_FFNN_15_15_trainlm_Dec_22
+addpath 1
+/home/deyun/git/OPERA_dev
+bench 1
+WT
+dataset 1
+WTK_error_086_spec_1_FFNN_trainbfg_5_5_5_Dec_22_Tr.mat
+is_nor 1
+0
+in_name 1
+h_ref
+in_range 1
+10 20
+in_span 1
+5
+con_type 1
+UniStep
+phi_str 1
+WTK1 alw_[4,4.9](abs(h_error[t]) < 0.86) and alw_[9,9.9](abs(h_error[t]) < 0.86) and alw_[14,14.9](abs(h_error[t]) < 0.86)
+parameters 4
+T=15;
+Ts=0.1;
+h_ref_min=10;
+h_ref_max=20;
+trials 1
+100

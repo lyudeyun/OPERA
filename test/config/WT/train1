@@ -1,0 +1,24 @@
+addpath 1
+/home/deyun/git/OPERA_dev
+bench 1
+WT
+st_id 1
+1
+dataset 1
+WT_error_086_spec_1_FFNN_trainbfg_5_5_5_Dec_22_Tr_St_1_Re.mat
+x_name 1
+D.tr_ic_cell
+y_name 1
+D.tr_oc_cell
+is_nor 1
+0
+retrain 1
+1
+nn_type 1
+FFNN
+nn_stru 1
+[5,5,5]
+algo 1
+trainbfg
+date 1
+Jan_1

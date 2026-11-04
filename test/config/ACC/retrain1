@@ -1,0 +1,38 @@
+addpath 1
+/home/deyun/git/OPERA_dev
+bench 1
+ACC
+st_list 5
+1
+2
+3
+4
+5
+dataset 5
+Nor_ACC_vl_28_ve_22_spec_1_FFNN_trainlm_10_10_10_Nor_Sat_Feb_15_Tr_St_1_Re.mat
+Nor_ACC_vl_28_ve_22_spec_1_FFNN_trainlm_10_10_10_Nor_Sat_Feb_15_Tr_St_2_Re.mat
+Nor_ACC_vl_28_ve_22_spec_1_FFNN_trainlm_10_10_10_Nor_Sat_Feb_15_Tr_St_3_Re.mat
+Nor_ACC_vl_28_ve_22_spec_1_FFNN_trainlm_10_10_10_Nor_Sat_Feb_15_Tr_St_4_Re.mat
+Nor_ACC_vl_28_ve_22_spec_1_FFNN_trainlm_10_10_10_Nor_Sat_Feb_15_Tr_St_5_Re.mat
+x_name 1
+D.tr_ic_cell
+y_name 1
+D.tr_oc_cell
+is_nor 1
+1
+nn_type 1
+FFNN
+nn_stru 1
+[10,10,10]
+algo 1
+trainlm
+max_epoch 1
+1000
+epoch_num 1
+1
+start_i 1
+1
+end_i 1
+10
+date 1
+Feb_30

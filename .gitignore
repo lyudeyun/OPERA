@@ -1,0 +1,13 @@
+.DS_Store
+.vscode/
+
+# job scripts written by test/*.py and logs written by make; keep the folders
+test/scripts/*
+!test/scripts/.gitkeep
+output/*
+!output/.gitkeep
+
+# outputs of the experiments, written to the folder of each controller
+benchmark/*/*/chromosome/
+benchmark/*/*/repaired/
+benchmark/*/*/repaired_rq7/

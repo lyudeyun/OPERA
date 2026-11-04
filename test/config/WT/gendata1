@@ -1,0 +1,34 @@
+model 1
+WT_FFNN_trainbfg_5_5_5_Dec_22
+addpath 2
+/home/deyun/git/OPERA_dev
+/home/deyun/git/breach
+bench 1
+WT
+D_name 2
+WT_error_086_spec_1_FFNN_trainbfg_5_5_5_Dec_22_Tr.mat
+WT_error_086_spec_1_FFNN_trainbfg_5_5_5_Dec_22_Te.mat
+D_size 2
+10000
+1000
+is_nor 1
+0
+in_name 1
+h_ref
+in_range 1
+10 20
+in_span 1
+5
+ics_name 1
+h_error
+oc_name 1
+action
+oc_span 1
+0.1
+phi_str 1
+WT1 alw_[4,4.9](abs(h_error[t]) < 0.86) and alw_[9,9.9](abs(h_error[t]) < 0.86) and alw_[14,14.9](abs(h_error[t]) < 0.86)
+parameters 4
+T=15;
+Ts=0.1;
+h_ref_min=10;
+h_ref_max=20;

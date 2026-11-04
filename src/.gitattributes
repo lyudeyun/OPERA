@@ -1,0 +1,2 @@
+benchmark/AFC/dataset/AFC_mu_015_spec_1_FFNN_trainlm_15_15_15_NoSat_Tr.mat filter=lfs diff=lfs merge=lfs -text
+benchmark/AFC/dataset/AFC_mu_015_spec_1_FFNN_trainlm_15_15_15_NoSat_Tr_St_1_Re.mat filter=lfs diff=lfs merge=lfs -text

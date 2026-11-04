@@ -1,0 +1,30 @@
+addpath 1
+/home/deyun/git/OPERA_dev
+bench 1
+AFC
+st_list 1
+5
+dataset 1
+Nor_AFC_mu_015_spec_1_FFNN_trainbfg_60_60_60_Nor_July_15_Tr_St_5_Re.mat
+x_name 1
+D.tr_ic_cell
+y_name 1
+D.tr_oc_cell
+is_nor 1
+1
+nn_type 1
+FFNN
+nn_stru 1
+[60,60,60]
+algo 1
+trainbfg
+max_epoch 1
+1000
+epoch_num 1
+1
+start_i 1
+1
+end_i 1
+10
+date 1
+Aug_11

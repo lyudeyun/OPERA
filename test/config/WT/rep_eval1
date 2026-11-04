@@ -1,0 +1,45 @@
+model 5
+WT_FFNN_trainbfg_5_5_5_St_1_Repeat_1
+WT_FFNN_trainbfg_5_5_5_St_2_Repeat_1
+WT_FFNN_trainbfg_5_5_5_St_3_Repeat_1
+WT_FFNN_trainbfg_5_5_5_St_4_Repeat_1
+WT_FFNN_trainbfg_5_5_5_St_5_Repeat_1
+addpath 1
+/home/deyun/git/OPERA_dev
+bench 1
+WT
+D_run 5
+WT_hrefmin_10_hrefmax_20_spec_1_PID_Tr.mat
+WT_hrefmin_10_hrefmax_20_spec_1_PID_Tr.mat
+WT_hrefmin_10_hrefmax_20_spec_1_PID_Tr.mat
+WT_hrefmin_10_hrefmax_20_spec_1_PID_Tr.mat
+WT_hrefmin_10_hrefmax_20_spec_1_PID_Tr.mat
+D_train 1
+WT_error_086_spec_1_FFNN_trainbfg_5_5_5_Dec_22_Tr.mat
+D_test 1
+WT_error_086_spec_1_FFNN_trainbfg_5_5_5_Dec_22_Te.mat
+D_repaired 5
+WT_error_086_spec_1_FFNN_trainbfg_5_5_5_Dec_22_Tr_St_1_Re.mat
+WT_error_086_spec_1_FFNN_trainbfg_5_5_5_Dec_22_Tr_St_2_Re.mat
+WT_error_086_spec_1_FFNN_trainbfg_5_5_5_Dec_22_Tr_St_3_Re.mat
+WT_error_086_spec_1_FFNN_trainbfg_5_5_5_Dec_22_Tr_St_4_Re.mat
+WT_error_086_spec_1_FFNN_trainbfg_5_5_5_Dec_22_Tr_St_5_Re.mat
+is_nor 1
+0
+in_name 1
+h_ref
+in_range 1
+10 20
+in_span 1
+5
+con_type 1
+UniStep
+phi_str 1
+WT1 alw_[4,4.9](abs(h_error[t]) < 0.86) and alw_[9,9.9](abs(h_error[t]) < 0.86) and alw_[14,14.9](abs(h_error[t]) < 0.86)
+parameters 4
+T=15;
+Ts=0.1;
+h_ref_min=10;
+h_ref_max=20;
+core_num 1
+20

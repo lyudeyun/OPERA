@@ -1,0 +1,54 @@
+model 1
+AFC_FFNN_trainlm_30_30_30_Nor_Jan_6
+addpath 2
+/home/deyun/git/OPERA_dev
+/home/deyun/git/breach
+bench 1
+AFC
+dataset 1
+AFC_mu_020_spec_1_Orig_Jan_6_Tr_Nor.mat
+D_name 1
+AFC_mu_015_spec_1_T_120_FFNN_trainlm_30_30_30_Nor_July_6_Tr.mat
+D_size 1
+1000
+num_workers 1
+20
+is_nor 1
+1
+in_name 2
+Engine_Speed
+Pedal_Angle
+in_range 2
+900 1100
+8.8 61.1
+in_span 1
+6 6
+ics_name 4
+es_radps
+ta_deg
+tf_gps
+af_meas
+oc_name 1
+cf_gps
+oc_span 1
+0.1
+phi_str 1
+AFC1 alw_[0,120](AF[t] < 1.15*14.7 and AF[t] > 0.85*14.7)
+parameters 17
+T=120;
+Ts=0.1;
+fuel_inj_tol=1.0;
+MAF_sensor_tol=1.0;
+AF_sensor_tol=1.0;
+pump_tol=1;
+kappa_tol=1;
+tau_ww_tol=1;
+fault_time=200;
+kp=0.04;
+ki=0.14;
+min_Engine_Speed=900;
+max_Engine_Speed=1100;
+min_Pedal_Angle=8.8;
+max_Pedal_Angle=61.1;
+max_cf_gps=1.66;
+min_cf_gps=0.13;

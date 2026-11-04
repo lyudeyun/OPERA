@@ -1,0 +1,31 @@
+addpath 1
+/home/deyun/git/OPERA_dev
+bench 1
+AFC
+st_id 1
+0
+dataset 1
+AFC_mu_020_spec_1_Orig_Jan_6_Tr_Nor.mat
+x_name 1
+D.tr_ic_cell
+y_name 1
+D.tr_oc_cell
+is_nor 1
+1
+retrain 1
+0
+nn_type 1
+FFNN
+nn_stru 6
+[5,5,5]
+[10,10,10]
+[15,15,15]
+[20,20,20]
+[25,25,25]
+[30,30,30]
+algo 3
+trainlm
+trainbfg
+trainscg
+date 1
+Jan_4
